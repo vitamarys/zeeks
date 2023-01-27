@@ -1,0 +1,62 @@
+
+@import './_vars.scss';
+
+html {
+  // font-family: 'Inter', sans-serif;
+  font-family: 'Cabin', sans-serif;
+
+
+}
+body{
+  background-color:$main-bg ;
+}
+.section{
+  width: 100%;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    @media (max-width:768px) {
+      max-width:100%;
+      width: 100%;
+      padding: 0 20px;
+    }
+}
+
+h1 {
+
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  color: $white-text-color;
+  font-weight: 700;
+
+}
+
+
+p{
+  font-family: 'Cabin';
+  font-style: normal;
+  color: $grey-text-color;
+  font-weight: 400;
+  line-height: 160%;
+  
+}
+h5,span,a{
+  font-family: 'Cabin';
+  font-style: normal;
+  color: $white-text-color;
+}
+a{
+  
+}
+@font-face {
+  font-family: "Cabin-num";
+  src: url(../assets/fonts/Cabin.ttf);
+}
+ul{
+  color: $white-text-color;
+  font-family: 'Cabin-num';
+  font-weight: 400;
+}
+ 
